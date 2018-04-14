@@ -120,7 +120,7 @@
 				</item>
 				<item>
 					<label>$LOCALIZE[180]:</label>
-					<label2>$INFO[ListItem.Duration]</label2>
+					<label2>..</label2>
 					<onclick>noop</onclick>
 				</item>
 				<item>

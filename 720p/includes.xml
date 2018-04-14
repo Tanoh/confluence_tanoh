@@ -151,7 +151,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<selectedcolor>selected</selectedcolor>
-					<label>$INFO[ListItem.Duration]</label>
+					<label>..</label>
 				</control>
 			</itemlayout>
 			<focusedlayout height="40" width="$PARAM[item-width]">
@@ -191,7 +191,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<selectedcolor>selected</selectedcolor>
-					<label>$INFO[ListItem.Duration]</label>
+					<label>..</label>
 				</control>
 			</focusedlayout>
 		</control>
@@ -1242,7 +1242,7 @@
 				<top>120</top>
 				<width>260</width>
 				<height>15</height>
-				<label>$INFO[ListItem.Property(Runtime),, $LOCALIZE[12391]]$INFO[ListItem.Property(Network), [COLOR=blue]-[/COLOR] (,)]</label>
+				<label>..</label>
 				<textcolor>grey2</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1325,7 +1325,7 @@
 				<top>120</top>
 				<width>260</width>
 				<height>15</height>
-				<label>$INFO[ListItem.Property(Runtime),, $LOCALIZE[12391]]$INFO[ListItem.Property(Network), [COLOR=blue]-[/COLOR] (,)]</label>
+				<label>..</label>
 				<textcolor>white</textcolor>
 				<font>font12</font>
 				<align>center</align>

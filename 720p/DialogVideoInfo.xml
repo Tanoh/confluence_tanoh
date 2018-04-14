@@ -287,7 +287,7 @@
 							</item>
 							<item>
 								<label>$LOCALIZE[2050]:</label>
-								<label2>$INFO[ListItem.Duration] $LOCALIZE[12391]</label2>
+								<label2>..</label2>
 								<onclick>noop</onclick>
 								<visible>!IsEmpty(ListItem.Duration)</visible>
 							</item>
@@ -636,7 +636,7 @@
 							</item>
 							<item>
 								<label>$LOCALIZE[2050]:</label>
-								<label2>$INFO[ListItem.Duration] $LOCALIZE[12391]</label2>
+								<label2>..</label2>
 								<onclick>noop</onclick>
 								<visible>!IsEmpty(ListItem.Duration)</visible>
 							</item>
@@ -801,7 +801,7 @@
 							</item>
 							<item>
 								<label>$LOCALIZE[2050]:</label>
-								<label2>$INFO[ListItem.Duration] $LOCALIZE[12391]</label2>
+								<label2>..</label2>
 								<onclick>noop</onclick>
 								<visible>!IsEmpty(ListItem.Duration)</visible>
 							</item>

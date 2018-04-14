@@ -633,7 +633,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -644,7 +644,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -719,7 +719,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -730,7 +730,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -866,7 +866,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -877,7 +877,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -952,7 +952,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -963,7 +963,7 @@
 									<top>30</top>
 									<width>265</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -1597,7 +1597,7 @@
 									<top>75</top>
 									<width>230</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -1662,7 +1662,7 @@
 									<top>75</top>
 									<width>230</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>grey2</textcolor>
 									<aligny>center</aligny>
@@ -2086,7 +2086,7 @@
 									<top>75</top>
 									<width>255</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>white</textcolor>
 									<aligny>center</aligny>
@@ -2143,7 +2143,7 @@
 									<top>75</top>
 									<width>255</width>
 									<height>15</height>
-									<label>$INFO[ListItem.Property(Duration)]</label>
+									<label>..</label>
 									<font>font12</font>
 									<textcolor>white</textcolor>
 									<aligny>center</aligny>

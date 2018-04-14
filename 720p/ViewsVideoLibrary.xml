@@ -157,7 +157,7 @@
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Duration,$LOCALIZE[2050] , $LOCALIZE[12391]]</label>
+				<label>...</label>
 			</control>
 			<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
@@ -510,7 +510,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration,, $LOCALIZE[12391]]</label>
+					<label>..</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control>
