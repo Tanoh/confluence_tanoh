@@ -90,7 +90,7 @@
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<pagecontrol>-</pagecontrol>
-					<label>$INFO[Container(50).ListItem.Title,[COLOR=blue]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Artist,[COLOR=blue]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Album,[COLOR=blue]$LOCALIZE[558]:[/COLOR] ,[CR]]..[CR]$INFO[Container(50).ListItem.TrackNumber,[COLOR=blue]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Genre,[COLOR=blue]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
+					<label>...</label>
 				</control>
 			</control>
 			<control type="group">
@@ -114,7 +114,7 @@
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<pagecontrol>-</pagecontrol>
-					<label>$INFO[Container(100).ListItem.Title,[COLOR=blue]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Artist,[COLOR=blue]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Album,[COLOR=blue]$LOCALIZE[558]:[/COLOR] ,[CR]]..[CR]]$INFO[Container(100).ListItem.TrackNumber,[COLOR=blue]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Genre,[COLOR=blue]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
+					<label>...</label>
 				</control>
 			</control>
 		</control>
@@ -396,7 +396,7 @@
 				</focusedlayout>
 			</control>
 		</control>
-		<include name="CommonWindowHeader">
+		<include content="CommonWindowHeader">
 			<param name="Icon" value="icon_music" />
 			<param name="Label" value="$LOCALIZE[10503]" />
 		</include>

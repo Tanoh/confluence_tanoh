@@ -20,13 +20,21 @@ msgctxt "#31000"
 msgid "Change your"
 msgstr "Endre dine"
 
+msgctxt "#31001"
+msgid "GAMES"
+msgstr "SPILL"
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr "[B]Spillinnstillinger[/B][CR][CR]Sett opp tilbakespolingsstøtte og valg ·  Sett opp tastaturbruk og antall tastaturspillere"
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Strømalternativer"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr "Arbeider..."
+msgstr "Arbeider…"
 
 msgctxt "#31005"
 msgid "Hide information"
@@ -36,6 +44,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "Visningsalt."
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "Videoprosesssinformasjon"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "Fullskjerm"
@@ -44,9 +56,29 @@ msgctxt "#31009"
 msgid "Total duration"
 msgstr "Total varighet"
 
-msgctxt "#31022"
-msgid "Music - Files"
-msgstr "Musikk - Filer"
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Maskinvarebasert dekoding"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "Dekoder"
+
+msgctxt "#31013"
+msgid "Audio process information"
+msgstr "Lydprosessinformasjon"
+
+msgctxt "#31014"
+msgid "Memory used"
+msgstr "Minne brukt"
+
+msgctxt "#31015"
+msgid "Minute"
+msgstr "Minutt"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -74,7 +106,7 @@ msgstr "Plakatsvøpe"
 
 msgctxt "#31029"
 msgid "Fanart"
-msgstr "Fanart"
+msgstr "Brukerkunstbidrag"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -152,10 +184,6 @@ msgctxt "#31059"
 msgid "Current playlist"
 msgstr "Nåværende spilleliste"
 
-msgctxt "#31060"
-msgid "This file is stacked, select the part you want to play from."
-msgstr "Denne filen er stablet, velg den delen du vil spille fra."
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Nåværende valgt"
@@ -218,7 +246,11 @@ msgstr "Programundermeny i hovedmeny"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Skjul fanart-bakgrunn"
+msgstr "Skjul brukerkunstbidrag-bakgrunn"
+
+msgctxt "#31122"
+msgid "Hide EPG if RDS is present on channel window"
+msgstr "Skjul EGP dersom RDS er vist i kanalvinduet"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
@@ -234,7 +266,7 @@ msgstr "Sangtekster"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Gjem Fanart i fullskjermsvisualisering"
+msgstr "Skjul brukerkunstbidrag i fullskjermsvisualisering"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
@@ -255,10 +287,6 @@ msgstr "Hjemmeskjerm bilder-undermeny"
 msgctxt "#31140"
 msgid "Music OSD"
 msgstr "Musikk OSD"
-
-msgctxt "#31141"
-msgid "Video OSD"
-msgstr "Video OSD"
 
 msgctxt "#31142"
 msgid "Settings level"
@@ -300,10 +328,6 @@ msgctxt "#31303"
 msgid "Data provider"
 msgstr "Datatilbyder"
 
-msgctxt "#31307"
-msgid "Hide fanart"
-msgstr "Skjul fanart"
-
 msgctxt "#31308"
 msgid "Movie details"
 msgstr "Filmdetaljer"
@@ -315,26 +339,6 @@ msgstr "Benyttet minne:"
 msgctxt "#31310"
 msgid "Track number"
 msgstr "Spornummer"
-
-msgctxt "#31311"
-msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
-msgstr "Fanart-bilde[CR][CR]ikke tilgjengelig[CR][CR]Klikk på knappen for å oppgi"
-
-msgctxt "#31312"
-msgid "Current scraper"
-msgstr "Nåværende skraper"
-
-msgctxt "#31313"
-msgid "Choose a scraper"
-msgstr "Velg en skraper"
-
-msgctxt "#31314"
-msgid "Content scanning options"
-msgstr "Alternativer for innholdsskraper"
-
-msgctxt "#31317"
-msgid "Set fanart path"
-msgstr "Oppgi søkesti for fanart"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -414,51 +418,19 @@ msgstr "Aktivert"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Standard for skall"
+msgstr "Forvalg for drakt"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
-msgstr "Skallstandard uten store bokstaver"
+msgstr "Forvalg for drakt, uten store bokstaver"
 
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Arial-basert"
 
-msgctxt "#31400"
-msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
-msgstr "[B]ENDRE DINE UTSEENDEINNSTILLINGER:[/B][CR][CR]Endre skallet · Oppgi dine regionale innstillinger · Endre globale visningsalternativer[CR]Konfigurer skjermsparer"
-
-msgctxt "#31401"
-msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
-msgstr "[B]ENDRE DINE GRAFIKKINNSTILLINGER:[/B][CR][CR]Håndter ditt filmbibliotek · Oppgi videoavspillingsalternativer · Endre videolistealternativer[CR]Oppgi skrifttype for undertekster"
-
-msgctxt "#31403"
-msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"
-msgstr "[B]KONFIGURER BILDE INSTILLINGER[/B][CR][CR]Forandre bilde opplistings alternativer · Konfigurer bildefremvisning"
-
-msgctxt "#31404"
-msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set various cities to collect weather information"
-msgstr "[B]KONFIGURER VÆR INSTILLINGER[/B][CR][CR]Skriv inn hvilke byer informasjon skal vises for"
-
-msgctxt "#31406"
-msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
-msgstr "[B]ENDRE SYSTEMVALG[/B][CR][CR]Oppsett og kalibrering av skjerm · Konfigurer lydmaskinvare · Still inn fjernkontroller[CR]Endre strømsparingsalternativer · Aktiver feilsøking · Sett opp systemlås"
-
-msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed add-ons · Browse for and install add-ons from kodi.tv[CR]Modify add-on settings"
-msgstr "[B]KONFIGURER UTVIDELSER[/B][CR][CR]Håndter dine installerte utvidelser · Se etter og installer utvidelser fra kodi.tv[CR]Forandre utvidelses innstillinger"
-
-msgctxt "#31409"
-msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
-msgstr "[B]KONFIGURER TV-INNSTILLINGER[/B][CR][CR]Skift fullskjermsinfo · Administrer datainnstillinger for EPG"
-
-msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]ENDRE DINE TJENESTEINNSTILLINGER[/B][CR][CR]Konfigurer kontroll av Kodi via UPnP og HTTP · Konfigurer fildeling[CR]Aktiver Zeroconf · Konfigurer AirPlay"
-
 msgctxt "#31411"
 msgid "First run help..."
-msgstr "Førstegangsintroduksjon..."
+msgstr "Førstegangsintroduksjon…"
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
@@ -483,6 +455,34 @@ msgstr "Vis eller skjul innloggingsskjermen ved oppstart"
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Velg profil som vil bli brukt ved oppstart når innloggingsskjermen er deaktivert ."
+
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]SPILLER INNSTILLINGER[/B][CR][CR]Sett opp handlinger som kan brukes under avspilling · Sett opp hvordan media avspilles"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]BIBLIOTEK INNSTILLINGER[/B][CR][CR]Sett opp hvordan bibliotek/filer viser mediainnhold · Sett opp hvordan bibliotek lister/visninger er navigert · Sett opp databaseinnstillinger for media"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR INNSTILLINGER[/B][CR][CR]Sett opp hvordan kanaler og guider er administrert · Sett opp hvordan direkte-TV og opptak administreres"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]TILLEGG INNSTILLINGER[/B][CR][CR]Sett opp dine installerte tillegg · Bla etter og installer tillegg fra Kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]TJENESTE INNSTILLINGER[/B][CR][CR]Sett opp og administrer mediadelingstjenester· Sett opp vevtjener · Sett opp og administrer værtjenestene"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]SYSTEM INNSTILLINGER[/B][CR][CR]Sett opp skjerm · Sett opp lyd · Sett opp internettilgang · Sett opp strømsparing · Sett opp loggføring"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]GRENSESNITT INNSTILLINGER[/B][CR][CR]Sett opp drakt · Sett opp region · Sett opp kontroll · Sett opp skjermsparer · Sett opp systemlås"
 
 msgctxt "#31501"
 msgid "Scheduled time"
@@ -540,13 +540,9 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Værvarsel"
 
-msgctxt "#31908"
-msgid "Chance of precipitation"
-msgstr "Mulighet for nedbør"
-
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr "Henter værvarsel..."
+msgstr "Henter værvarsel…"
 
 msgctxt "#31910"
 msgid "Maps"

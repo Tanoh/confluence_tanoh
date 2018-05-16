@@ -30,10 +30,10 @@
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="list" id="8000">
-					<animation effect="slide" start="0,0" end="90,0" time="0" condition="StringCompare(Container(8000).NumItems,4)">conditional</animation>
-					<animation effect="slide" start="0,0" end="180,0" time="0" condition="StringCompare(Container(8000).NumItems,3)">conditional</animation>
-					<animation effect="slide" start="0,0" end="270,0" time="0" condition="StringCompare(Container(8000).NumItems,2)">conditional</animation>
-					<animation effect="slide" start="0,0" end="360,0" time="0" condition="StringCompare(Container(8000).NumItems,1)">conditional</animation>
+					<animation effect="slide" start="0,0" end="90,0" time="0" condition="String.IsEqual(Container(8000).NumItems,4)">conditional</animation>
+					<animation effect="slide" start="0,0" end="180,0" time="0" condition="String.IsEqual(Container(8000).NumItems,3)">conditional</animation>
+					<animation effect="slide" start="0,0" end="270,0" time="0" condition="String.IsEqual(Container(8000).NumItems,2)">conditional</animation>
+					<animation effect="slide" start="0,0" end="360,0" time="0" condition="String.IsEqual(Container(8000).NumItems,1)">conditional</animation>
 					<left>0</left>
 					<top>0</top>
 					<width>900</width>
@@ -44,7 +44,7 @@
 					<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 					<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 					<viewtype label="535">list</viewtype>
-					<pagecontrol>-</pagecontrol>
+					<pagecontrol/>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
 					<itemlayout height="220" width="180">
@@ -144,81 +144,81 @@
 							<label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.1.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.1.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.1.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.1.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.1.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.2.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.2.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.2.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.2.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.2.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.2.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.3.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.3.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.3.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.3.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.3.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.3.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.4.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.4.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.4.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.4.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.4.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.4.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.5.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.5.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.5.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.5.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.5.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.5.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.6.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.6.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.6.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.6.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.6.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.6.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.7.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.7.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.7.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.7.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.7.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.7.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.8.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.8.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.8.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.8.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.8.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.8.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.9.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.9.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.9.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.9.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.9.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.9.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestMovie.10.Title)]</label>
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.10.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestMovie.10.Thumb)]</icon>
-							<thumb>-</thumb>
-							<visible>!IsEmpty(Window.Property(LatestMovie.10.Title))</visible>
+							<icon>DefaultVideoCover.png</icon>
+							<thumb>$INFO[Window.Property(LatestMovie.10.Thumb)]</thumb>
+							<visible>!String.IsEmpty(Window.Property(LatestMovie.10.Title))</visible>
 						</item>
 					</content>
 				</control>
@@ -267,9 +267,9 @@
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="list" id="8001">
-					<animation effect="slide" start="0,0" end="120,0" time="0" condition="StringCompare(Container(8001).NumItems,3)">conditional</animation>
-					<animation effect="slide" start="0,0" end="240,0" time="0" condition="StringCompare(Container(8001).NumItems,2)">conditional</animation>
-					<animation effect="slide" start="0,0" end="360,0" time="0" condition="StringCompare(Container(8001).NumItems,1)">conditional</animation>
+					<animation effect="slide" start="0,0" end="120,0" time="0" condition="String.IsEqual(Container(8001).NumItems,3)">conditional</animation>
+					<animation effect="slide" start="0,0" end="240,0" time="0" condition="String.IsEqual(Container(8001).NumItems,2)">conditional</animation>
+					<animation effect="slide" start="0,0" end="360,0" time="0" condition="String.IsEqual(Container(8001).NumItems,1)">conditional</animation>
 					<left>0</left>
 					<top>0</top>
 					<width>960</width>
@@ -280,7 +280,7 @@
 					<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 					<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 					<viewtype label="535">list</viewtype>
-					<pagecontrol>-</pagecontrol>
+					<pagecontrol/>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
 					<itemlayout height="220" width="240">
@@ -406,81 +406,81 @@
 							<label>$INFO[Window.Property(LatestEpisode.1.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.1.ShowTitle)] - $INFO[Window.Property(LatestEpisode.1.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.1.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.1.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.1.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.1.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.1.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.2.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.2.ShowTitle)] - $INFO[Window.Property(LatestEpisode.2.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.2.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.2.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.2.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.2.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.2.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.3.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.3.ShowTitle)] - $INFO[Window.Property(LatestEpisode.3.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.3.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.3.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.3.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.3.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.3.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.4.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.4.ShowTitle)] - $INFO[Window.Property(LatestEpisode.4.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.4.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.4.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.4.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.4.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.4.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.5.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.5.ShowTitle)] - $INFO[Window.Property(LatestEpisode.5.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.5.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.5.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.5.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.5.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.5.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.6.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.6.ShowTitle)] - $INFO[Window.Property(LatestEpisode.6.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.6.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.6.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.6.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.6.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.6.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.7.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.7.ShowTitle)] - $INFO[Window.Property(LatestEpisode.7.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.7.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.7.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.7.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.7.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.7.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.8.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.8.ShowTitle)] - $INFO[Window.Property(LatestEpisode.8.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.8.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.8.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.8.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.8.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.8.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.9.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.9.ShowTitle)] - $INFO[Window.Property(LatestEpisode.9.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.9.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.9.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.9.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.9.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.9.EpisodeTitle))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestEpisode.10.EpisodeTitle)]</label>
 							<label2>$INFO[Window.Property(LatestEpisode.10.ShowTitle)] - $INFO[Window.Property(LatestEpisode.10.EpisodeNo)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.10.Path)])</onclick>
-							<icon>-</icon>
+							<icon>$INFO[Window.Property(LatestEpisode.10.Fanart)]</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.10.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.10.EpisodeTitle))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestEpisode.10.EpisodeTitle))</visible>
 						</item>
 					</content>
 				</control>
@@ -529,9 +529,9 @@
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="list" id="8002">
-					<animation effect="slide" start="0,0" end="100,0" time="0" condition="StringCompare(Container(8002).NumItems,3)">conditional</animation>
-					<animation effect="slide" start="0,0" end="200,0" time="0" condition="StringCompare(Container(8002).NumItems,2)">conditional</animation>
-					<animation effect="slide" start="0,0" end="300,0" time="0" condition="StringCompare(Container(8002).NumItems,1)">conditional</animation>
+					<animation effect="slide" start="0,0" end="100,0" time="0" condition="String.IsEqual(Container(8002).NumItems,3)">conditional</animation>
+					<animation effect="slide" start="0,0" end="200,0" time="0" condition="String.IsEqual(Container(8002).NumItems,2)">conditional</animation>
+					<animation effect="slide" start="0,0" end="300,0" time="0" condition="String.IsEqual(Container(8002).NumItems,1)">conditional</animation>
 					<left>0</left>
 					<top>0</top>
 					<width>800</width>
@@ -542,7 +542,7 @@
 					<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 					<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
 					<viewtype label="535">list</viewtype>
-					<pagecontrol>-</pagecontrol>
+					<pagecontrol/>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
 					<itemlayout height="220" width="200">
@@ -669,90 +669,90 @@
 							<label2>$INFO[Window.Property(LatestAlbum.1.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.1.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.1.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.1.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.1.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.2.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.2.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.2.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.2.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.2.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.2.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.3.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.3.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.3.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.3.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.3.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.3.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.4.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.4.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.4.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.4.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.4.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.4.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.5.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.5.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.5.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.5.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.5.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.5.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.6.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.6.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.6.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.6.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.6.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.6.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.7.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.7.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.7.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.7.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.7.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.7.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.8.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.8.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.8.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.8.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.8.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.8.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.9.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.9.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.9.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.9.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.9.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.9.Title))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(LatestAlbum.10.Title)]</label>
 							<label2>$INFO[Window.Property(LatestAlbum.10.Artist)]</label2>
 							<onclick>PlayList.Clear</onclick>
 							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.10.Path)]")</onclick>
-							<icon>-</icon>
+							<icon>DefaultAlbumCover.png</icon>
 							<thumb>$INFO[Window.Property(LatestAlbum.10.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestAlbum.10.Title))</visible>
+							<visible>!String.IsEmpty(Window.Property(LatestAlbum.10.Title))</visible>
 						</item>
 					</content>
 				</control>
