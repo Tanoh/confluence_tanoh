@@ -349,7 +349,7 @@
 					<top>120</top>
 					<width>910</width>
 					<height>25</height>
-					<label>$LOCALIZE[31049] $INFO[Player.FinishTime]</label>
+					<label>...</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -407,7 +407,7 @@
 					<height>16</height>
 					<info>Player.ProgressCache</info>
 					<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
-					<visible>!Player.ChannelPreviewActive</visible>
+					<visible>false</visible>
 				</control>
 				<control type="progress" id="1">
 					<description>Progressbar</description>
@@ -416,6 +416,7 @@
 					<width>720</width>
 					<height>16</height>
 					<info>Player.Progress</info>
+					<visible>false</visible>
 				</control>
 				<control type="label" id="1">
 					<visible>!VideoPlayer.Content(LiveTV)</visible>
@@ -426,7 +427,7 @@
 					<font>font13</font>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>$INFO[Player.Duration(hh:mm:ss)]</label>
+					<label>...</label>
 				</control>
 				<control type="label" id="1">
 					<visible>VideoPlayer.Content(LiveTV)</visible>
@@ -437,7 +438,7 @@
 					<font>font13</font>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>$INFO[Player.FinishTime(hh:mm)]</label>
+					<label>...</label>
 				</control>
 			</control>
 		</control>

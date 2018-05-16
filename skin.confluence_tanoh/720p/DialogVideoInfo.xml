@@ -241,7 +241,7 @@
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
-								<label>$LOCALIZE[2050]:</label>
+								<label>...</label>
 								<label2>...</label2>
 								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Duration)</visible>
@@ -590,7 +590,7 @@
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
-								<label>$LOCALIZE[2050]:</label>
+								<label>...</label>
 								<label2>...</label2>
 								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Duration)</visible>
@@ -755,7 +755,7 @@
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
-								<label>$LOCALIZE[2050]:</label>
+								<label>...</label>
 								<label2>...</label2>
 								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Duration)</visible>

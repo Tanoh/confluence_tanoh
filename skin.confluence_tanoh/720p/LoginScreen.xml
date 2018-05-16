@@ -51,7 +51,7 @@
 				<textcolor>grey2</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$LOCALIZE[31421]</label>
+				<label>...</label>
 			</control>
 			<control type="list" id="52">
 				<left>295</left>

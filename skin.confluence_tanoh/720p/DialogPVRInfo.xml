@@ -114,12 +114,12 @@
 					<onclick>noop</onclick>
 				</item>
 				<item>
-					<label>$LOCALIZE[142]</label>
+					<label>...</label>
 					<label2>$INFO[ListItem.StartTime] - $INFO[ListItem.EndTime] ($INFO[ListItem.StartDate])</label2>
 					<onclick>noop</onclick>
 				</item>
 				<item>
-					<label>$LOCALIZE[180]:</label>
+					<label>...</label>
 					<label2>..</label2>
 					<onclick>noop</onclick>
 				</item>

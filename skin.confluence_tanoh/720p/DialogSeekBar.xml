@@ -282,7 +282,7 @@
 				<height>15</height>
 				<info>Player.ProgressCache</info>
 				<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
-				<visible>true</visible>
+				<visible>false</visible>
 			</control>
 			<control type="progress" id="23">
 				<description>Progressbar</description>
@@ -291,7 +291,7 @@
 				<width>240</width>
 				<height>15</height>
 				<info>Player.Progress</info>
-				<visible>true</visible>
+				<visible>false</visible>
 			</control>
 			<control type="slider" id="401">
 				<description>Seek Slider</description>
@@ -302,7 +302,7 @@
 				<texturesliderbar>seekslider.png</texturesliderbar>
 				<textureslidernib>osd_slider_nib.png</textureslidernib>
 				<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
-				<visible>Player.Seeking</visible>
+				<visible>false</visible>
 			</control>
 		</control>
 	</controls>

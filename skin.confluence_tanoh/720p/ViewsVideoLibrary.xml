@@ -678,7 +678,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$LOCALIZE[20161] : $INFO[ListItem.Episode]</label>
+					<label>...</label>
 				</control>
 				<control type="label">
 					<left>0</left>
@@ -691,7 +691,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$LOCALIZE[16102] : $INFO[ListItem.Property(WatchedEpisodes)]</label>
+					<label>...</label>
 				</control>
 				<control type="label">
 					<left>0</left>
@@ -704,7 +704,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$LOCALIZE[16101] : $INFO[ListItem.Property(UnWatchedEpisodes)]</label>
+					<label>...</label>
 				</control>
 			</control>
 			<control type="group">

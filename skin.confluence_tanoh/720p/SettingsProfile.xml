@@ -274,7 +274,7 @@
 						<width>736</width>
 						<height>83</height>
 						<font>font12</font>
-						<label>$LOCALIZE[31422]</label>
+						<label>...</label>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
@@ -287,7 +287,7 @@
 						<width>736</width>
 						<height>83</height>
 						<font>font12</font>
-						<label>$LOCALIZE[31423]</label>
+						<label>...</label>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>

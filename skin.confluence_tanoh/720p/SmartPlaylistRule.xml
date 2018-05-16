@@ -11,7 +11,7 @@
 			<param name="DialogBackgroundWidth" value="800" />
 			<param name="DialogBackgroundHeight" value="280" />
 			<param name="DialogHeaderWidth" value="720" />
-			<param name="DialogHeaderLabel" value="$LOCALIZE[21421]" />
+			<param name="DialogHeaderLabel" value="..." />
 			<param name="DialogHeaderId" value="2" />
 			<param name="CloseButtonLeft" value="710" />
 			<param name="CloseButtonNav" value="9001" />

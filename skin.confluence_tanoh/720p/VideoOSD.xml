@@ -39,7 +39,7 @@
 			<textureslidernib>osd_slider_nibNF.png</textureslidernib>
 			<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 			<animation effect="fade" time="150">VisibleChange</animation>
-			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(VideoBookmarks) | VideoPlayer.Content(LiveTV)]</visible>
+			<visible>false</visible>
 		</control>
 		<control type="grouplist" id="100">
 			<left>325</left>
@@ -76,7 +76,7 @@
 				<texturefocus>OSDPrevTrackFO.png</texturefocus>
 				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 				<onclick>PlayerControl(Previous)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
+				<visible>false</visible>
 			</control>
 			<control type="button" id="201">
 				<width>55</width>
